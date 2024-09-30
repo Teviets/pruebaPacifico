@@ -1,0 +1,48 @@
+#app{
+  background-color: #282c34;
+}
+
+#headerTable{
+  display: flex;
+  justify-content: space-between;
+  background-color: #181a1f;
+}
+
+h1{
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+#flotante{
+  position: relative;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+#tablediv{
+  margin: 1%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
